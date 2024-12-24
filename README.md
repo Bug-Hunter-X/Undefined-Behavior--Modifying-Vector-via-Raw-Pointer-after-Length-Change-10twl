@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Rust involving undefined behavior. The code modifies a vector through a raw pointer after potentially changing the vector's length, leading to unpredictable consequences. The solution showcases safe alternatives using vector indexing or borrowing.
